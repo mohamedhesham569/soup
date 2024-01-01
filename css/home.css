@@ -121,7 +121,8 @@ a{
     width: 40%;
     position:absolute;
     right: 0;
-    top: 25vh;
+    top: 50%;
+    transform: translate(0,-50%);
     background-color:var(--maincolor);
 }
 .content h2{
@@ -377,8 +378,9 @@ a{
 }
 .image-h2{
     position: absolute;
-    top: 72%;
-    left: 30%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 55px;
     color: #f0f8ffd4;
 }
@@ -552,7 +554,6 @@ a{
     .content{
         height: fit-content;
         width: 50%;
-        top: 20%;
     }
     .content p{
         font-size: 15px;
