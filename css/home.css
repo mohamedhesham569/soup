@@ -139,7 +139,7 @@ a{
 }
 .content button{
     width: 30%;
-    height:20%;
+    height:fit-content;
     margin: 20px 0px 0px 20px;
     background-color: var(--maincolor);
     color: white;
@@ -547,7 +547,6 @@ a{
         height: fit-content;
     }
     .item1,.item2,.item3{
-        height: 60vh;
         background-position-x: center;
     }
     .content{
@@ -609,12 +608,12 @@ a{
         left: -5px;
     }
     .image-h2{
-        top: 85%;
+        top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     }
     .offer-image{
-        width: 75%;
+        width: 100%;
         margin-left: 0px;
     }
     .offer-content{
@@ -634,7 +633,7 @@ a{
     .main-ul{
         margin: 0;
         line-height: 25px;
-        font-size: 7px;
+        font-size: 10px;
     }
     .offers-titel{
         left: 0;

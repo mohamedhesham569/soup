@@ -91,6 +91,7 @@
     margin: 0px 5px;
 }
 .li-price button{
+    border: 1px black solid;
     background-color: #ffffff05;
     padding: 8px 10px;
     text-transform: uppercase;
